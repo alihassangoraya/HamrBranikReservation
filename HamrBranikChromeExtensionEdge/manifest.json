@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "My Extension",
+    "version": "1.0",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["https://hodiny.hamrsport.cz/Default.aspx", "https://hodiny.hamrsport.cz/Login.aspx"],
+        "js": ["jquery.min.js", "content.js"],
+        "run_at": "document_end"
+      }
+    ]
+  }
+  
