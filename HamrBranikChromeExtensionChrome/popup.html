@@ -1,13 +1,98 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>My Extension</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HAMR Settings</title>
+  <style>
+    :root { --bg:#f6f8fb; --card:#ffffff; --text:#1f2937; --muted:#6b7280; --border:#dbe3ef; --primary:#2563eb; }
+    body { font-family: Inter, Segoe UI, Arial, sans-serif; width: 340px; padding: 12px; margin: 0; background: var(--bg); color: var(--text); }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 12px; box-shadow: 0 2px 10px rgba(37,99,235,.08); }
+    h2 { margin: 0; font-size: 16px; }
+    .subtitle { margin: 4px 0 10px; font-size: 12px; color: var(--muted); }
+    .section-title { margin: 12px 0 6px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; color: var(--muted); }
+    .hint { margin: 2px 0 0; font-size: 11px; color: var(--muted); }
+    label { display: block; margin: 8px 0 4px; font-size: 12px; font-weight: 600; }
+    input, select { width: 100%; box-sizing: border-box; padding: 7px 8px; border: 1px solid var(--border); border-radius: 8px; background: #fff; }
+    select[multiple] { min-height: 90px; }
+    hr { border: 0; border-top: 1px solid var(--border); margin: 12px 0; }
+    .actions { margin-top: 12px; display: flex; gap: 8px; }
+    button { flex: 1; padding: 9px; border-radius: 8px; border: 1px solid var(--border); background: #fff; cursor: pointer; font-weight: 600; }
+    #saveBtn { background: var(--primary); border-color: var(--primary); color: #fff; }
+    #status { margin-top: 8px; font-size: 12px; color: #0a7b2d; min-height: 14px; }
+    .watch-fields { margin-top: 8px; }
+    .watch-fields.hidden { display: none; }
+  </style>
 </head>
-
 <body>
-    <h1>My Simple Script Runner</h1>
-    <p>This can book badminton court on Hamr Branik.</p>
-</body>
+  <div class="card">
+  <h2>HAMR Auto Booking</h2>
+  <p class="subtitle">Quick setup for court auto-reservation</p>
+  <div class="section-title">Main settings</div>
+  <label for="username">Username</label>
+  <input id="username" type="text" />
 
+  <label for="password">Password</label>
+  <input id="password" type="password" />
+
+  <label for="numberOfCourts">Number of courts</label>
+  <input id="numberOfCourts" type="number" min="1" max="2" />
+
+  <label for="allowedDays">Target days (hold Cmd/Ctrl for multiple)</label>
+  <select id="allowedDays" multiple size="7">
+    <option value="Po">Monday (Po)</option>
+    <option value="Út">Tuesday (Út)</option>
+    <option value="St">Wednesday (St)</option>
+    <option value="Čt">Thursday (Čt)</option>
+    <option value="Pá">Friday (Pá)</option>
+    <option value="So">Saturday (So)</option>
+    <option value="Ne">Sunday (Ne)</option>
+  </select>
+
+  <label for="fromTimeIndex">Start time</label>
+  <select id="fromTimeIndex"></select>
+
+  <label for="durationSlots">Duration</label>
+  <select id="durationSlots">
+    <option value="2">60 minutes</option>
+    <option value="3">90 minutes</option>
+    <option value="4" selected="selected">120 minutes</option>
+  </select>
+  <p class="hint">Example: 90 min = 3 slots, 120 min = 4 slots.</p>
+
+  <hr />
+  <div class="section-title">Last-minute watch</div>
+  <label><input id="enableLastMinuteWatch" type="checkbox" /> Enable last-minute watch mode</label>
+  <p class="hint">When enabled, extension can keep checking your selected target close to start time.</p>
+  <div id="watchFields" class="watch-fields hidden">
+  <label for="watchDay">Watch day</label>
+  <select id="watchDay">
+    <option value="Po">Monday (Po)</option>
+    <option value="Út">Tuesday (Út)</option>
+    <option value="St">Wednesday (St)</option>
+    <option value="Čt">Thursday (Čt)</option>
+    <option value="Pá">Friday (Pá)</option>
+    <option value="So">Saturday (So)</option>
+    <option value="Ne">Sunday (Ne)</option>
+  </select>
+  <label for="watchStartIndex">Watch from time</label>
+  <select id="watchStartIndex"></select>
+  <label for="watchDurationSlots">Watch duration</label>
+  <select id="watchDurationSlots">
+    <option value="1">30 minutes</option>
+    <option value="2">60 minutes</option>
+    <option value="3">90 minutes</option>
+    <option value="4">120 minutes</option>
+  </select>
+  </div>
+
+  <div class="actions">
+    <button id="saveBtn">Save</button>
+    <button id="resetBtn" type="button">Reset</button>
+  </div>
+  <div id="status"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
 </html>
