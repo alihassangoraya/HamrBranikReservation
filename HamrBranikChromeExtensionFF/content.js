@@ -11,11 +11,13 @@ let startingDay;
 const MAX_BOOKINGS_PER_SLOT = 2;
 const CHECK_INTERVAL_MS = 1200;
 const TURBO_CHECK_INTERVAL_MS = 700;
+const GRID_REFRESH_INTERVAL_MS = 15000;
 const FREE_CANCEL_BUFFER_MS = (24 * 60 + 30) * 60 * 1000; // 24h 30m
 
 let isRunning = false;
 let scheduledRun = null;
 let loginInProgressUntil = 0;
+let lastGridRefreshAt = 0;
 const RESERVE_BUTTON_ID = "ctl00_workspace_dpWindow_mpDynamicPopup_ctl01_dpcf_popupforms_resedit_ascx_btReserve";
 const TIME_TO_SELECT_ID = "ctl00_workspace_dpWindow_mpDynamicPopup_ctl01_dpcf_popupforms_resedit_ascx_ddlTimeTo";
 const POPUP_PANEL_ID = "ctl00_workspace_dpWindow_mpDynamicPopup_pnlModalPopup";
@@ -150,6 +152,7 @@ async function checkCondition() {
         return;
     }
     isRunning = true;
+    let didAnyAction = false;
 
     try {
 
@@ -176,11 +179,13 @@ async function checkCondition() {
         topLoginUser.val(username);
         topLoginPass.val(password);
         topLoginBtn.click();
+        didAnyAction = true;
         loginInProgressUntil = Date.now() + 12000;
     } else if (popupLoginUser.length && popupLoginPass.length && popupLoginBtn.length) {
         popupLoginUser.val(username);
         popupLoginPass.val(password);
         popupLoginBtn.click();
+        didAnyAction = true;
         loginInProgressUntil = Date.now() + 12000;
     } else if ($("#ctl00_workspace_mpLogOn_pnlModalPopup:visible").length) {
         loginInProgressUntil = Date.now() + 12000;
@@ -233,6 +238,7 @@ async function checkCondition() {
                 if (stillNeedToCheck && hasFreeCapacity) {
                     console.log("Condition not met, running script again.");
                     $slot.click();
+                    didAnyAction = true;
 
                     const popupOpened = await waitForPopupOpen(2000);
                     if (!popupOpened) {
@@ -283,6 +289,7 @@ async function checkCondition() {
                     }
 
                     document.getElementById(RESERVE_BUTTON_ID)?.click();
+                    didAnyAction = true;
                     await waitForPopupClose();
                     await timer(150);
                     const $slotAfter = $(`#${timeToCheck}`);
@@ -294,6 +301,12 @@ async function checkCondition() {
                     }
                 }
             }
+        }
+
+        if (!didAnyAction && !isPopupOpen() && (Date.now() - lastGridRefreshAt) > GRID_REFRESH_INTERVAL_MS) {
+            lastGridRefreshAt = Date.now();
+            window.location.reload();
+            return;
         }
     }
     } finally {
