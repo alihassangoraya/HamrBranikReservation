@@ -126,7 +126,7 @@ function getSlotStartDate(dayLabel, slotIndex) {
 }
 
 async function loadSettings() {
-    const stored = await storageGet(["username", "password", "numberOfCourts", "toTime", "timeLimit", "allowedDays", "fromTimeIndex", "enableLastMinuteWatch", "watchDay", "watchStartIndex", "watchDurationSlots"]);
+    const stored = await storageGet(["username", "password", "numberOfCourts", "toTime", "timeLimit", "allowedDays", "fromTimeIndex", "durationSlots", "enableLastMinuteWatch", "watchDay", "watchStartIndex", "watchDurationSlots"]);
     return {
         username: (stored.username ?? DEFAULT_SETTINGS.username).toString(),
         password: (stored.password ?? DEFAULT_SETTINGS.password).toString(),
@@ -135,6 +135,7 @@ async function loadSettings() {
         timeLimit: Number(stored.timeLimit ?? DEFAULT_SETTINGS.timeLimit),
         allowedDays: Array.isArray(stored.allowedDays) && stored.allowedDays.length ? stored.allowedDays : ["Út", "St", "Čt", "Pá"],
         fromTimeIndex: Number(stored.fromTimeIndex ?? 23),
+        durationSlots: Number(stored.durationSlots ?? 4),
         enableLastMinuteWatch: Boolean(stored.enableLastMinuteWatch),
         watchDay: (stored.watchDay ?? "Pá").toString(),
         watchStartIndex: Number(stored.watchStartIndex ?? 23),
@@ -156,8 +157,10 @@ async function checkCondition() {
 
     try {
 
-    const { username, password, numberOfCourts, toTime, timeLimit, allowedDays, fromTimeIndex, enableLastMinuteWatch, watchDay, watchStartIndex, watchDurationSlots } = await loadSettings();
+    const { username, password, numberOfCourts, toTime, timeLimit, allowedDays, fromTimeIndex, durationSlots, enableLastMinuteWatch, watchDay, watchStartIndex, watchDurationSlots } = await loadSettings();
     const effectiveTargetPerSlot = Math.min(Number(numberOfCourts) || 0, MAX_BOOKINGS_PER_SLOT);
+    const computedTimeLimit = Math.min(31, fromTimeIndex + Math.max(1, Number(durationSlots) || 1) - 1);
+    const effectiveTimeLimit = Math.min(Number(timeLimit) || computedTimeLimit, computedTimeLimit);
 
     if ($("#ctl00_workspace_dpWindow_mpDynamicPopup_ctl01_dpcf_popupforms_resedit_ascx_ddlTimeTo").val() == "0") {
         $("#ctl00_workspace_dpWindow_mpDynamicPopup_btClose").click();
@@ -203,7 +206,7 @@ async function checkCondition() {
             const dayShort = dayToCheck.split(" ")[0];
             const watchEndIndex = watchStartIndex + watchDurationSlots - 1;
 
-            for (let j = fromTimeIndex; j <= timeLimit; j++) {
+            for (let j = fromTimeIndex; j <= effectiveTimeLimit; j++) {
                 const slotStart = getSlotStartDate(dayToCheck, j);
                 if (!slotStart || slotStart.getTime() <= Date.now()) {
                     continue;
