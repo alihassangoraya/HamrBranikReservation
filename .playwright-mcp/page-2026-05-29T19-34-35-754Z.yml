@@ -1,0 +1,106 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link "Hamr" [ref=e6] [cursor=pointer]:
+        - /url: http://www.hamrsport.cz
+        - img [ref=e7]
+      - generic [ref=e12]: ONLINE REZERVACE
+      - table [ref=e14]:
+        - rowgroup [ref=e15]:
+          - 'row "Verze: 2.490" [ref=e16]':
+            - 'cell "Verze: 2.490" [ref=e17]'
+          - row [ref=e18]:
+            - cell [ref=e19]
+    - generic [ref=e20]:
+      - generic [ref=e22]:
+        - link "Nápověda" [ref=e23] [cursor=pointer]:
+          - /url: javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$userNavLeft$lbHelp", "", true, "", "", false, true))
+        - text: "|"
+        - link "Nová registrace" [ref=e24] [cursor=pointer]:
+          - /url: javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$userNavLeft$lbNewRegist", "", true, "", "", false, true))
+        - text: "|"
+        - link "Zapomenuté přístupové údaje" [ref=e25] [cursor=pointer]:
+          - /url: javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$userNavLeft$lbLostLogin", "", true, "", "", false, true))
+      - table [ref=e27]:
+        - rowgroup [ref=e28]:
+          - 'row "Přihlašovací jméno: Heslo: Přihlásit" [ref=e29]':
+            - cell "Přihlašovací jméno:" [ref=e30]
+            - cell [ref=e31]:
+              - textbox [active] [ref=e32]
+            - cell "Heslo:" [ref=e33]
+            - cell [ref=e34]:
+              - textbox [ref=e35]
+            - cell "Přihlásit" [ref=e36] [cursor=pointer]:
+              - button "Přihlásit" [ref=e37]
+    - generic [ref=e38]:
+      - paragraph [ref=e40]:
+        - text: Vážení klienti,
+        - text: z důvodu organizace soukromých firemních akcí, bude areál HAMR-Braník v termínech pátek 29.5. a čtvrtek 18.6. po celý den pro veřejnost uzavřen.
+        - text: Děkujeme za pochopení.
+      - generic [ref=e41]: .
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - generic [ref=e44] [cursor=pointer]: Hodiny
+        - generic [ref=e45] [cursor=pointer]: Kempy
+        - generic [ref=e46] [cursor=pointer]: Kurzy
+        - generic [ref=e47] [cursor=pointer]: Školy
+      - table [ref=e91]:
+        - rowgroup [ref=e92]:
+          - 'row "Rezervační panel • Lokalita: Braník • Sport: Badminton" [ref=e101]':
+            - cell "Rezervační panel" [ref=e94]
+            - cell "• Lokalita:" [ref=e95]
+            - cell "Braník" [ref=e96]:
+              - combobox [ref=e97]:
+                - option "- vyberte -"
+                - option "Braník" [selected]
+                - option "Záběhlice"
+            - cell "• Sport:" [ref=e98]
+            - cell "Badminton" [ref=e102]:
+              - combobox [ref=e100]:
+                - option "- vyberte-"
+                - option "Badminton" [selected]
+                - option "Beachvolejbal"
+                - option "Fotbal"
+                - option "Tenis"
+                - option "Turnaj / Kemp"
+    - generic [ref=e60]:
+      - generic [ref=e61]:
+        - heading "Permanentky" [level=1] [ref=e62]
+        - paragraph [ref=e63]:
+          - text: vložení do náhrad →
+          - strong [ref=e64]: nejpozději den přededm od 19:00
+          - text: Permanentkové rezervace lze vložit do náhrad do 19 hodin předchozího dne, po tomto termínu bude rezervace vložená do POZDNÍCH náhrad.
+      - generic [ref=e65]:
+        - heading "Storno podmínky – sportoviště" [level=1] [ref=e66]
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - heading "Více než 24 h předem" [level=5] [ref=e69]
+            - text: → bez poplatku
+          - generic [ref=e70]:
+            - heading "24 – 12 h" [level=5] [ref=e71]
+            - text: → 20 %
+          - generic [ref=e72]:
+            - heading "11:59 – 3 h" [level=5] [ref=e73]
+            - text: → 50 %
+          - generic [ref=e74]:
+            - heading "Méně než 3 h" [level=5] [ref=e75]
+            - text: → 100 %
+      - generic [ref=e76]:
+        - heading "Storno podmínky – sportoviště s trenérem" [level=1] [ref=e77]
+        - list [ref=e78]:
+          - listitem [ref=e79]:
+            - text: Do 19:00 den předem → trenér
+            - strong [ref=e80]: bez poplatku
+          - listitem [ref=e81]:
+            - text: Po 19:00 / v den rezervace →
+            - strong [ref=e82]: 100 % trenér
+        - paragraph [ref=e83]:
+          - text: Sportoviště se vždy řídí standardními storno podmínkami.
+          - text: Zrušení trenéra pouze telefonicky nebo osobně (nelze online).
+        - heading "Upozornění:" [level=3] [ref=e84]
+        - list [ref=e85]:
+          - listitem [ref=e86]: Nezrušené rezervace a storno poplatky jsou evidovány a budou vymáhány.
+          - listitem [ref=e87]:
+            - text: HAMR si vyhrazuje právo
+            - strong [ref=e88]: zrušit nezaplacenou rezervaci 5 minut před začátkem.
+  - generic: "&nbps;"

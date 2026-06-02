@@ -52,39 +52,13 @@
   <label for="fromTimeIndex">Start time</label>
   <select id="fromTimeIndex"></select>
 
-  <label for="durationSlots">Duration</label>
-  <select id="durationSlots">
-    <option value="2">60 minutes</option>
-    <option value="3">90 minutes</option>
-    <option value="4" selected="selected">120 minutes</option>
-  </select>
-  <p class="hint">Example: 90 min = 3 slots, 120 min = 4 slots.</p>
+  <label for="endTimeIndex">End time</label>
+  <select id="endTimeIndex"></select>
+  <p class="hint">Each reservation will be exactly 120 minutes inside this window.</p>
 
   <hr />
-  <div class="section-title">Last-minute watch</div>
-  <label><input id="enableLastMinuteWatch" type="checkbox" /> Enable last-minute watch mode</label>
-  <p class="hint">When enabled, extension can keep checking your selected target close to start time.</p>
-  <div id="watchFields" class="watch-fields hidden">
-  <label for="watchDay">Watch day</label>
-  <select id="watchDay">
-    <option value="Po">Monday (Po)</option>
-    <option value="Út">Tuesday (Út)</option>
-    <option value="St">Wednesday (St)</option>
-    <option value="Čt">Thursday (Čt)</option>
-    <option value="Pá">Friday (Pá)</option>
-    <option value="So">Saturday (So)</option>
-    <option value="Ne">Sunday (Ne)</option>
-  </select>
-  <label for="watchStartIndex">Watch from time</label>
-  <select id="watchStartIndex"></select>
-  <label for="watchDurationSlots">Watch duration</label>
-  <select id="watchDurationSlots">
-    <option value="1">30 minutes</option>
-    <option value="2">60 minutes</option>
-    <option value="3">90 minutes</option>
-    <option value="4">120 minutes</option>
-  </select>
-  </div>
+  <div class="section-title">Cancellation watch</div>
+  <p class="hint">The extension keeps refreshing and watches the selected days and time window, including late cancellations.</p>
 
   <div class="actions">
     <button id="saveBtn">Save</button>

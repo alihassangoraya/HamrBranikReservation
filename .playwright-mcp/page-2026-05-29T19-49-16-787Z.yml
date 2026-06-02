@@ -1,0 +1,1106 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link "Hamr" [ref=e6] [cursor=pointer]:
+        - /url: http://www.hamrsport.cz
+        - img [ref=e7]
+      - generic [ref=e12]: ONLINE REZERVACE
+      - table [ref=e14]:
+        - rowgroup [ref=e15]:
+          - 'row "Verze: 2.490" [ref=e16]':
+            - 'cell "Verze: 2.490" [ref=e17]'
+          - row [ref=e18]:
+            - cell [ref=e19]
+    - generic [ref=e20]:
+      - list [ref=e23]:
+        - listitem [ref=e24]:
+          - strong [ref=e25]: SAFDER Iqra
+      - generic [ref=e27]:
+        - link "Nápověda" [ref=e28] [cursor=pointer]:
+          - /url: javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$userNavRight$lbHelp", "", true, "", "", false, true))
+        - text: "|"
+        - link "Změnit heslo" [ref=e29] [cursor=pointer]:
+          - /url: javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$userNavRight$lbChangePass", "", true, "", "", false, true))
+        - text: "|"
+        - link "Odhlásit se" [ref=e30] [cursor=pointer]:
+          - /url: javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$userNavRight$lbLogout", "", true, "", "", false, true))
+    - list [ref=e33]:
+      - listitem [ref=e34]:
+        - generic [ref=e35]: 
+        - link "Osobní údaje" [ref=e37] [cursor=pointer]:
+          - /url: javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$mainNav$UserNav$lbDetail", "", true, "", "", false, true))
+      - listitem [ref=e38]:
+        - generic [ref=e39]: 
+        - link "Rezervace" [ref=e41] [cursor=pointer]:
+          - /url: javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$mainNav$UserNav$lbReservations", "", true, "", "", false, true))
+      - listitem [ref=e42]:
+        - generic [ref=e43]: 
+        - link "Kredit" [ref=e45] [cursor=pointer]:
+          - /url: javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$mainNav$UserNav$lbCredit", "", true, "", "", false, true))
+        - generic [ref=e46]:
+          - text: (
+          - generic [ref=e47]: nezaložen
+          - text: )
+      - listitem [ref=e48]:
+        - generic [ref=e49]: 
+        - link "Permanentky" [ref=e51] [cursor=pointer]:
+          - /url: javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$mainNav$UserNav$lbSeasonTickets", "", true, "", "", false, true))
+      - listitem [ref=e52]:
+        - generic [ref=e53]: 
+        - link "Náhrady" [ref=e55] [cursor=pointer]:
+          - /url: javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$mainNav$UserNav$lbCompensations", "", true, "", "", false, true))
+      - listitem [ref=e56]:
+        - generic [ref=e57]: 
+        - link "Pohledávky" [ref=e59] [cursor=pointer]:
+          - /url: javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$mainNav$UserNav$lbClaims", "", true, "", "", false, true))
+    - generic [ref=e60]:
+      - heading "Doporučení:" [level=2] [ref=e61]
+      - paragraph [ref=e62]: Po dokončení online rezervace si prosím zkontrolujte její správnost v sekci "Rezervace". V případě potřeby zde můžete rezervaci i zrušit.
+    - generic [ref=e63]:
+      - paragraph [ref=e65]:
+        - text: Vážení klienti,
+        - text: z důvodu organizace soukromých firemních akcí, bude areál HAMR-Braník v termínech pátek 29.5. a čtvrtek 18.6. po celý den pro veřejnost uzavřen.
+        - text: Děkujeme za pochopení.
+      - generic [ref=e66]: .
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69] [cursor=pointer]: Hodiny
+        - generic [ref=e70] [cursor=pointer]: Kempy
+        - generic [ref=e71] [cursor=pointer]: Kurzy
+        - generic [ref=e72] [cursor=pointer]: Školy
+      - generic [ref=e73]:
+        - table [ref=e76]:
+          - rowgroup [ref=e77]:
+            - 'row "Rezervační panel • Lokalita: Braník • Sport: Badminton Uložit jako výchozí • Denní limit: 8 rezervací" [ref=e78]':
+              - cell "Rezervační panel" [ref=e79]
+              - cell "• Lokalita:" [ref=e80]
+              - cell "Braník" [ref=e81]:
+                - combobox [ref=e82]:
+                  - option "- vyberte -"
+                  - option "Braník" [selected]
+                  - option "Záběhlice"
+              - cell "• Sport:" [ref=e83]
+              - cell "Badminton" [ref=e84]:
+                - combobox [ref=e85]:
+                  - option "- vyberte -"
+                  - option "Badminton" [selected]
+                  - option "Beachvolejbal"
+                  - option "Fotbal"
+                  - option "Tenis"
+                  - option "Turnaj / Kemp"
+              - cell "Uložit jako výchozí" [ref=e86] [cursor=pointer]:
+                - button "Uložit jako výchozí" [ref=e87]
+              - cell [ref=e88]
+              - cell "• Denní limit:" [ref=e89]
+              - cell "8 rezervací" [ref=e90]
+        - table [ref=e95]:
+          - rowgroup [ref=e96]:
+            - row "07:00 07:30 08:00 08:30 09:00 09:30 10:00 10:30 11:00 11:30 12:00 12:30 13:00 13:30 14:00 14:30 15:00 15:30 16:00 16:30 17:00 17:30 18:00 18:30 19:00 19:30 20:00 20:30 21:00 21:30 22:00 22:30" [ref=e97]:
+              - cell [ref=e98]
+              - cell [ref=e99]
+              - cell "07:00" [ref=e100]
+              - cell "07:30" [ref=e101]
+              - cell "08:00" [ref=e102]
+              - cell "08:30" [ref=e103]
+              - cell "09:00" [ref=e104]
+              - cell "09:30" [ref=e105]
+              - cell "10:00" [ref=e106]
+              - cell "10:30" [ref=e107]
+              - cell "11:00" [ref=e108]
+              - cell "11:30" [ref=e109]
+              - cell "12:00" [ref=e110]
+              - cell "12:30" [ref=e111]
+              - cell "13:00" [ref=e112]
+              - cell "13:30" [ref=e113]
+              - cell "14:00" [ref=e114]
+              - cell "14:30" [ref=e115]
+              - cell "15:00" [ref=e116]
+              - cell "15:30" [ref=e117]
+              - cell "16:00" [ref=e118]
+              - cell "16:30" [ref=e119]
+              - cell "17:00" [ref=e120]
+              - cell "17:30" [ref=e121]
+              - cell "18:00" [ref=e122]
+              - cell "18:30" [ref=e123]
+              - cell "19:00" [ref=e124]
+              - cell "19:30" [ref=e125]
+              - cell "20:00" [ref=e126]
+              - cell "20:30" [ref=e127]
+              - cell "21:00" [ref=e128]
+              - cell "21:30" [ref=e129]
+              - cell "22:00" [ref=e130]
+              - cell "22:30" [ref=e131]
+              - cell [ref=e132]
+            - row "Pá 29.05.2026 8 Pá 29.05.2026" [ref=e133]:
+              - cell "Pá 29.05.2026" [ref=e134]
+              - cell "8" [ref=e135]
+              - cell [ref=e136]
+              - cell [ref=e138]
+              - cell [ref=e140]
+              - cell [ref=e142]
+              - cell [ref=e144]
+              - cell [ref=e146]
+              - cell [ref=e148]
+              - cell [ref=e150]
+              - cell [ref=e152]
+              - cell [ref=e154]
+              - cell [ref=e156]
+              - cell [ref=e158]
+              - cell [ref=e160]
+              - cell [ref=e162]
+              - cell [ref=e164]
+              - cell [ref=e166]
+              - cell [ref=e168]
+              - cell [ref=e170]
+              - cell [ref=e172]
+              - cell [ref=e174]
+              - cell [ref=e176]
+              - cell [ref=e178]
+              - cell [ref=e180]
+              - cell [ref=e182]
+              - cell [ref=e184]
+              - cell [ref=e186]
+              - cell [ref=e188]
+              - cell [ref=e190]
+              - cell [ref=e192]
+              - cell [ref=e194]
+              - cell [ref=e196]
+              - cell [ref=e198]
+              - cell "Pá 29.05.2026" [ref=e200]
+            - row "So 30.05.2026 8 1 1 1 více více více více více více více více více So 30.05.2026" [ref=e201]:
+              - cell "So 30.05.2026" [ref=e202]
+              - cell "8" [ref=e203]
+              - cell [ref=e204]
+              - cell [ref=e206]
+              - cell [ref=e208]
+              - cell [ref=e210]
+              - cell "1" [ref=e212]:
+                - generic [ref=e213] [cursor=pointer]: "1"
+              - cell [ref=e214]
+              - cell [ref=e216]
+              - cell [ref=e218]
+              - cell [ref=e220]
+              - cell [ref=e222]
+              - cell "1" [ref=e224]:
+                - generic [ref=e225] [cursor=pointer]: "1"
+              - cell [ref=e226]
+              - cell [ref=e228]
+              - cell [ref=e230]
+              - cell [ref=e232]
+              - cell [ref=e234]
+              - cell "1" [ref=e236]:
+                - generic [ref=e237] [cursor=pointer]: "1"
+              - cell [ref=e238]
+              - cell [ref=e240]
+              - cell [ref=e242]
+              - cell [ref=e244]
+              - cell [ref=e246]
+              - cell [ref=e248]
+              - cell "více" [ref=e250]:
+                - generic [ref=e251] [cursor=pointer]: více
+              - cell "více" [ref=e252]:
+                - generic [ref=e253] [cursor=pointer]: více
+              - cell "více" [ref=e254]:
+                - generic [ref=e255] [cursor=pointer]: více
+              - cell "více" [ref=e256]:
+                - generic [ref=e257] [cursor=pointer]: více
+              - cell "více" [ref=e258]:
+                - generic [ref=e259] [cursor=pointer]: více
+              - cell "více" [ref=e260]:
+                - generic [ref=e261] [cursor=pointer]: více
+              - cell "více" [ref=e262]:
+                - generic [ref=e263] [cursor=pointer]: více
+              - cell "více" [ref=e264]:
+                - generic [ref=e265] [cursor=pointer]: více
+              - cell "více" [ref=e266]:
+                - generic [ref=e267] [cursor=pointer]: více
+              - cell "So 30.05.2026" [ref=e268]
+            - row "Ne 31.05.2026 8 více více více 1 více více více více více 1 1 1 1 více více Ne 31.05.2026" [ref=e269]:
+              - cell "Ne 31.05.2026" [ref=e270]
+              - cell "8" [ref=e271]
+              - cell "více" [ref=e272]:
+                - generic [ref=e273] [cursor=pointer]: více
+              - cell "více" [ref=e274]:
+                - generic [ref=e275] [cursor=pointer]: více
+              - cell "více" [ref=e276]:
+                - generic [ref=e277] [cursor=pointer]: více
+              - cell "1" [ref=e278]:
+                - generic [ref=e279] [cursor=pointer]: "1"
+              - cell [ref=e280]
+              - cell [ref=e282]
+              - cell [ref=e284]
+              - cell [ref=e286]
+              - cell [ref=e288]
+              - cell "více" [ref=e290]:
+                - generic [ref=e291] [cursor=pointer]: více
+              - cell [ref=e292]
+              - cell [ref=e294]
+              - cell [ref=e296]
+              - cell [ref=e298]
+              - cell "více" [ref=e300]:
+                - generic [ref=e301] [cursor=pointer]: více
+              - cell "více" [ref=e302]:
+                - generic [ref=e303] [cursor=pointer]: více
+              - cell "více" [ref=e304]:
+                - generic [ref=e305] [cursor=pointer]: více
+              - cell "více" [ref=e306]:
+                - generic [ref=e307] [cursor=pointer]: více
+              - cell [ref=e308]
+              - cell [ref=e310]
+              - cell "1" [ref=e312]:
+                - generic [ref=e313] [cursor=pointer]: "1"
+              - cell "1" [ref=e314]:
+                - generic [ref=e315] [cursor=pointer]: "1"
+              - cell [ref=e316]
+              - cell [ref=e318]
+              - cell [ref=e320]
+              - cell "1" [ref=e322]:
+                - generic [ref=e323] [cursor=pointer]: "1"
+              - cell "1" [ref=e324]:
+                - generic [ref=e325] [cursor=pointer]: "1"
+              - cell [ref=e326]
+              - cell [ref=e328]
+              - cell [ref=e330]
+              - cell "více" [ref=e332]:
+                - generic [ref=e333] [cursor=pointer]: více
+              - cell "více" [ref=e334]:
+                - generic [ref=e335] [cursor=pointer]: více
+              - cell "Ne 31.05.2026" [ref=e336]
+            - row "Po 01.06.2026 8 více více více více více více více více více více více více více více více více více 1 více více více více Po 01.06.2026" [ref=e337]:
+              - cell "Po 01.06.2026" [ref=e338]
+              - cell "8" [ref=e339]
+              - cell "více" [ref=e340]:
+                - generic [ref=e341] [cursor=pointer]: více
+              - cell "více" [ref=e342]:
+                - generic [ref=e343] [cursor=pointer]: více
+              - cell "více" [ref=e344]:
+                - generic [ref=e345] [cursor=pointer]: více
+              - cell "více" [ref=e346]:
+                - generic [ref=e347] [cursor=pointer]: více
+              - cell "více" [ref=e348]:
+                - generic [ref=e349] [cursor=pointer]: více
+              - cell "více" [ref=e350]:
+                - generic [ref=e351] [cursor=pointer]: více
+              - cell "více" [ref=e352]:
+                - generic [ref=e353] [cursor=pointer]: více
+              - cell "více" [ref=e354]:
+                - generic [ref=e355] [cursor=pointer]: více
+              - cell "více" [ref=e356]:
+                - generic [ref=e357] [cursor=pointer]: více
+              - cell "více" [ref=e358]:
+                - generic [ref=e359] [cursor=pointer]: více
+              - cell "více" [ref=e360]:
+                - generic [ref=e361] [cursor=pointer]: více
+              - cell "více" [ref=e362]:
+                - generic [ref=e363] [cursor=pointer]: více
+              - cell "více" [ref=e364]:
+                - generic [ref=e365] [cursor=pointer]: více
+              - cell "více" [ref=e366]:
+                - generic [ref=e367] [cursor=pointer]: více
+              - cell "více" [ref=e368]:
+                - generic [ref=e369] [cursor=pointer]: více
+              - cell "více" [ref=e370]:
+                - generic [ref=e371] [cursor=pointer]: více
+              - cell "více" [ref=e372]:
+                - generic [ref=e373] [cursor=pointer]: více
+              - cell [ref=e374]
+              - cell [ref=e376]
+              - cell [ref=e378]
+              - cell [ref=e380]
+              - cell [ref=e382]
+              - cell [ref=e384]
+              - cell [ref=e386]
+              - cell [ref=e388]
+              - cell [ref=e390]
+              - cell [ref=e392]
+              - cell "1" [ref=e394]:
+                - generic [ref=e395] [cursor=pointer]: "1"
+              - cell "více" [ref=e396]:
+                - generic [ref=e397] [cursor=pointer]: více
+              - cell "více" [ref=e398]:
+                - generic [ref=e399] [cursor=pointer]: více
+              - cell "více" [ref=e400]:
+                - generic [ref=e401] [cursor=pointer]: více
+              - cell "více" [ref=e402]:
+                - generic [ref=e403] [cursor=pointer]: více
+              - cell "Po 01.06.2026" [ref=e404]
+            - row "Út 02.06.2026 1 více více více více více více více více více více více více více více více více více 1 2 2 2 1 více více více více Út 02.06.2026" [ref=e405]:
+              - cell "Út 02.06.2026" [ref=e406]
+              - cell "1" [ref=e407]
+              - cell "více" [ref=e408]:
+                - generic [ref=e409] [cursor=pointer]: více
+              - cell "více" [ref=e410]:
+                - generic [ref=e411] [cursor=pointer]: více
+              - cell "více" [ref=e412]:
+                - generic [ref=e413] [cursor=pointer]: více
+              - cell "více" [ref=e414]:
+                - generic [ref=e415] [cursor=pointer]: více
+              - cell "více" [ref=e416]:
+                - generic [ref=e417] [cursor=pointer]: více
+              - cell "více" [ref=e418]:
+                - generic [ref=e419] [cursor=pointer]: více
+              - cell "více" [ref=e420]:
+                - generic [ref=e421] [cursor=pointer]: více
+              - cell "více" [ref=e422]:
+                - generic [ref=e423] [cursor=pointer]: více
+              - cell "více" [ref=e424]:
+                - generic [ref=e425] [cursor=pointer]: více
+              - cell "více" [ref=e426]:
+                - generic [ref=e427] [cursor=pointer]: více
+              - cell "více" [ref=e428]:
+                - generic [ref=e429] [cursor=pointer]: více
+              - cell "více" [ref=e430]:
+                - generic [ref=e431] [cursor=pointer]: více
+              - cell "více" [ref=e432]:
+                - generic [ref=e433] [cursor=pointer]: více
+              - cell "více" [ref=e434]:
+                - generic [ref=e435] [cursor=pointer]: více
+              - cell "více" [ref=e436]:
+                - generic [ref=e437] [cursor=pointer]: více
+              - cell "více" [ref=e438]:
+                - generic [ref=e439] [cursor=pointer]: více
+              - cell "více" [ref=e440]:
+                - generic [ref=e441] [cursor=pointer]: více
+              - cell "1" [ref=e442]:
+                - generic [ref=e443] [cursor=pointer]: "1"
+              - cell [ref=e444]
+              - cell [ref=e446]
+              - cell [ref=e448]
+              - cell [ref=e450]
+              - cell [ref=e452]
+              - cell "2" [ref=e454]:
+                - generic [ref=e455]: "2"
+              - cell "2" [ref=e456]:
+                - generic [ref=e457]: "2"
+              - cell "2" [ref=e458]:
+                - generic [ref=e459]: "2"
+              - cell "1" [ref=e460]:
+                - generic [ref=e461]: "1"
+              - cell [ref=e462]
+              - cell "více" [ref=e464]:
+                - generic [ref=e465] [cursor=pointer]: více
+              - cell "více" [ref=e466]:
+                - generic [ref=e467] [cursor=pointer]: více
+              - cell "více" [ref=e468]:
+                - generic [ref=e469] [cursor=pointer]: více
+              - cell "více" [ref=e470]:
+                - generic [ref=e471] [cursor=pointer]: více
+              - cell "Út 02.06.2026" [ref=e472]
+            - row "St 03.06.2026 8 více více více více více více více více více více více více více více více více více více více více St 03.06.2026" [ref=e473]:
+              - cell "St 03.06.2026" [ref=e474]
+              - cell "8" [ref=e475]
+              - cell "více" [ref=e476]:
+                - generic [ref=e477] [cursor=pointer]: více
+              - cell "více" [ref=e478]:
+                - generic [ref=e479] [cursor=pointer]: více
+              - cell "více" [ref=e480]:
+                - generic [ref=e481] [cursor=pointer]: více
+              - cell "více" [ref=e482]:
+                - generic [ref=e483] [cursor=pointer]: více
+              - cell "více" [ref=e484]:
+                - generic [ref=e485] [cursor=pointer]: více
+              - cell "více" [ref=e486]:
+                - generic [ref=e487] [cursor=pointer]: více
+              - cell "více" [ref=e488]:
+                - generic [ref=e489] [cursor=pointer]: více
+              - cell "více" [ref=e490]:
+                - generic [ref=e491] [cursor=pointer]: více
+              - cell "více" [ref=e492]:
+                - generic [ref=e493] [cursor=pointer]: více
+              - cell "více" [ref=e494]:
+                - generic [ref=e495] [cursor=pointer]: více
+              - cell "více" [ref=e496]:
+                - generic [ref=e497] [cursor=pointer]: více
+              - cell "více" [ref=e498]:
+                - generic [ref=e499] [cursor=pointer]: více
+              - cell "více" [ref=e500]:
+                - generic [ref=e501] [cursor=pointer]: více
+              - cell "více" [ref=e502]:
+                - generic [ref=e503] [cursor=pointer]: více
+              - cell "více" [ref=e504]:
+                - generic [ref=e505] [cursor=pointer]: více
+              - cell "více" [ref=e506]:
+                - generic [ref=e507] [cursor=pointer]: více
+              - cell "více" [ref=e508]:
+                - generic [ref=e509] [cursor=pointer]: více
+              - cell [ref=e510]
+              - cell [ref=e512]
+              - cell [ref=e514]
+              - cell [ref=e516]
+              - cell [ref=e518]
+              - cell [ref=e520]
+              - cell [ref=e522]
+              - cell [ref=e524]
+              - cell [ref=e526]
+              - cell [ref=e528]
+              - cell [ref=e530]
+              - cell [ref=e532]
+              - cell "více" [ref=e534]:
+                - generic [ref=e535] [cursor=pointer]: více
+              - cell "více" [ref=e536]:
+                - generic [ref=e537] [cursor=pointer]: více
+              - cell "více" [ref=e538]:
+                - generic [ref=e539] [cursor=pointer]: více
+              - cell "St 03.06.2026" [ref=e540]
+            - row "Čt 04.06.2026 4 více více více více více více více více více více více více více více více více více 1 1 1 1 více více více více Čt 04.06.2026" [ref=e541]:
+              - cell "Čt 04.06.2026" [ref=e542]
+              - cell "4" [ref=e543]
+              - cell "více" [ref=e544]:
+                - generic [ref=e545] [cursor=pointer]: více
+              - cell "více" [ref=e546]:
+                - generic [ref=e547] [cursor=pointer]: více
+              - cell "více" [ref=e548]:
+                - generic [ref=e549] [cursor=pointer]: více
+              - cell "více" [ref=e550]:
+                - generic [ref=e551] [cursor=pointer]: více
+              - cell "více" [ref=e552]:
+                - generic [ref=e553] [cursor=pointer]: více
+              - cell "více" [ref=e554]:
+                - generic [ref=e555] [cursor=pointer]: více
+              - cell "více" [ref=e556]:
+                - generic [ref=e557] [cursor=pointer]: více
+              - cell "více" [ref=e558]:
+                - generic [ref=e559] [cursor=pointer]: více
+              - cell "více" [ref=e560]:
+                - generic [ref=e561] [cursor=pointer]: více
+              - cell "více" [ref=e562]:
+                - generic [ref=e563] [cursor=pointer]: více
+              - cell "více" [ref=e564]:
+                - generic [ref=e565] [cursor=pointer]: více
+              - cell "více" [ref=e566]:
+                - generic [ref=e567] [cursor=pointer]: více
+              - cell "více" [ref=e568]:
+                - generic [ref=e569] [cursor=pointer]: více
+              - cell "více" [ref=e570]:
+                - generic [ref=e571] [cursor=pointer]: více
+              - cell "více" [ref=e572]:
+                - generic [ref=e573] [cursor=pointer]: více
+              - cell "více" [ref=e574]:
+                - generic [ref=e575] [cursor=pointer]: více
+              - cell "více" [ref=e576]:
+                - generic [ref=e577] [cursor=pointer]: více
+              - cell [ref=e578]
+              - cell [ref=e580]
+              - cell [ref=e582]
+              - cell [ref=e584]
+              - cell [ref=e586]
+              - cell [ref=e588]
+              - cell "1" [ref=e590]:
+                - generic [ref=e591]: "1"
+              - cell "1" [ref=e592]:
+                - generic [ref=e593]: "1"
+              - cell "1" [ref=e594]:
+                - generic [ref=e595]: "1"
+              - cell "1" [ref=e596]:
+                - generic [ref=e597]: "1"
+              - cell [ref=e598]
+              - cell "více" [ref=e600]:
+                - generic [ref=e601] [cursor=pointer]: více
+              - cell "více" [ref=e602]:
+                - generic [ref=e603] [cursor=pointer]: více
+              - cell "více" [ref=e604]:
+                - generic [ref=e605] [cursor=pointer]: více
+              - cell "více" [ref=e606]:
+                - generic [ref=e607] [cursor=pointer]: více
+              - cell "Čt 04.06.2026" [ref=e608]
+            - row "Pá 05.06.2026 2 více více více více více více více více více více více více více více více více více více 1 více 2 2 více2 1 více více Pá 05.06.2026" [ref=e609]:
+              - cell "Pá 05.06.2026" [ref=e610]
+              - cell "2" [ref=e611]
+              - cell "více" [ref=e612]:
+                - generic [ref=e613] [cursor=pointer]: více
+              - cell "více" [ref=e614]:
+                - generic [ref=e615] [cursor=pointer]: více
+              - cell "více" [ref=e616]:
+                - generic [ref=e617] [cursor=pointer]: více
+              - cell "více" [ref=e618]:
+                - generic [ref=e619] [cursor=pointer]: více
+              - cell "více" [ref=e620]:
+                - generic [ref=e621] [cursor=pointer]: více
+              - cell "více" [ref=e622]:
+                - generic [ref=e623] [cursor=pointer]: více
+              - cell "více" [ref=e624]:
+                - generic [ref=e625] [cursor=pointer]: více
+              - cell "více" [ref=e626]:
+                - generic [ref=e627] [cursor=pointer]: více
+              - cell "více" [ref=e628]:
+                - generic [ref=e629] [cursor=pointer]: více
+              - cell "více" [ref=e630]:
+                - generic [ref=e631] [cursor=pointer]: více
+              - cell "více" [ref=e632]:
+                - generic [ref=e633] [cursor=pointer]: více
+              - cell "více" [ref=e634]:
+                - generic [ref=e635] [cursor=pointer]: více
+              - cell "více" [ref=e636]:
+                - generic [ref=e637] [cursor=pointer]: více
+              - cell "více" [ref=e638]:
+                - generic [ref=e639] [cursor=pointer]: více
+              - cell "více" [ref=e640]:
+                - generic [ref=e641] [cursor=pointer]: více
+              - cell "více" [ref=e642]:
+                - generic [ref=e643] [cursor=pointer]: více
+              - cell "více" [ref=e644]:
+                - generic [ref=e645] [cursor=pointer]: více
+              - cell "více" [ref=e646]:
+                - generic [ref=e647] [cursor=pointer]: více
+              - cell "1" [ref=e648]:
+                - generic [ref=e649] [cursor=pointer]: "1"
+              - cell [ref=e650]
+              - cell [ref=e652]
+              - cell [ref=e654]
+              - cell "více" [ref=e656]:
+                - generic [ref=e657] [cursor=pointer]: více
+              - cell "2" [ref=e658]:
+                - generic [ref=e659]: "2"
+              - cell "2" [ref=e660]:
+                - generic [ref=e661]: "2"
+              - cell "více2" [ref=e662]:
+                - generic [ref=e663] [cursor=pointer]: více2
+              - cell [ref=e664]
+              - cell [ref=e666]
+              - cell [ref=e668]
+              - cell "1" [ref=e670]:
+                - generic [ref=e671] [cursor=pointer]: "1"
+              - cell "více" [ref=e672]:
+                - generic [ref=e673] [cursor=pointer]: více
+              - cell "více" [ref=e674]:
+                - generic [ref=e675] [cursor=pointer]: více
+              - cell "Pá 05.06.2026" [ref=e676]
+            - row "So 06.06.2026 8 více více více více více více více více více více více více více více více více více více více více více více více více více více více více více více více více So 06.06.2026" [ref=e677]:
+              - cell "So 06.06.2026" [ref=e678]
+              - cell "8" [ref=e679]
+              - cell "více" [ref=e680]:
+                - generic [ref=e681] [cursor=pointer]: více
+              - cell "více" [ref=e682]:
+                - generic [ref=e683] [cursor=pointer]: více
+              - cell "více" [ref=e684]:
+                - generic [ref=e685] [cursor=pointer]: více
+              - cell "více" [ref=e686]:
+                - generic [ref=e687] [cursor=pointer]: více
+              - cell "více" [ref=e688]:
+                - generic [ref=e689] [cursor=pointer]: více
+              - cell "více" [ref=e690]:
+                - generic [ref=e691] [cursor=pointer]: více
+              - cell "více" [ref=e692]:
+                - generic [ref=e693] [cursor=pointer]: více
+              - cell "více" [ref=e694]:
+                - generic [ref=e695] [cursor=pointer]: více
+              - cell "více" [ref=e696]:
+                - generic [ref=e697] [cursor=pointer]: více
+              - cell "více" [ref=e698]:
+                - generic [ref=e699] [cursor=pointer]: více
+              - cell "více" [ref=e700]:
+                - generic [ref=e701] [cursor=pointer]: více
+              - cell "více" [ref=e702]:
+                - generic [ref=e703] [cursor=pointer]: více
+              - cell "více" [ref=e704]:
+                - generic [ref=e705] [cursor=pointer]: více
+              - cell "více" [ref=e706]:
+                - generic [ref=e707] [cursor=pointer]: více
+              - cell "více" [ref=e708]:
+                - generic [ref=e709] [cursor=pointer]: více
+              - cell "více" [ref=e710]:
+                - generic [ref=e711] [cursor=pointer]: více
+              - cell "více" [ref=e712]:
+                - generic [ref=e713] [cursor=pointer]: více
+              - cell "více" [ref=e714]:
+                - generic [ref=e715] [cursor=pointer]: více
+              - cell "více" [ref=e716]:
+                - generic [ref=e717] [cursor=pointer]: více
+              - cell "více" [ref=e718]:
+                - generic [ref=e719] [cursor=pointer]: více
+              - cell "více" [ref=e720]:
+                - generic [ref=e721] [cursor=pointer]: více
+              - cell "více" [ref=e722]:
+                - generic [ref=e723] [cursor=pointer]: více
+              - cell "více" [ref=e724]:
+                - generic [ref=e725] [cursor=pointer]: více
+              - cell "více" [ref=e726]:
+                - generic [ref=e727] [cursor=pointer]: více
+              - cell "více" [ref=e728]:
+                - generic [ref=e729] [cursor=pointer]: více
+              - cell "více" [ref=e730]:
+                - generic [ref=e731] [cursor=pointer]: více
+              - cell "více" [ref=e732]:
+                - generic [ref=e733] [cursor=pointer]: více
+              - cell "více" [ref=e734]:
+                - generic [ref=e735] [cursor=pointer]: více
+              - cell "více" [ref=e736]:
+                - generic [ref=e737] [cursor=pointer]: více
+              - cell "více" [ref=e738]:
+                - generic [ref=e739] [cursor=pointer]: více
+              - cell "více" [ref=e740]:
+                - generic [ref=e741] [cursor=pointer]: více
+              - cell "více" [ref=e742]:
+                - generic [ref=e743] [cursor=pointer]: více
+              - cell "So 06.06.2026" [ref=e744]
+            - row "Ne 07.06.2026 8 více více více více více více více více více více více více více více více více více více více více více více více více více více více více více více více více Ne 07.06.2026" [ref=e745]:
+              - cell "Ne 07.06.2026" [ref=e746]
+              - cell "8" [ref=e747]
+              - cell "více" [ref=e748]:
+                - generic [ref=e749] [cursor=pointer]: více
+              - cell "více" [ref=e750]:
+                - generic [ref=e751] [cursor=pointer]: více
+              - cell "více" [ref=e752]:
+                - generic [ref=e753] [cursor=pointer]: více
+              - cell "více" [ref=e754]:
+                - generic [ref=e755] [cursor=pointer]: více
+              - cell "více" [ref=e756]:
+                - generic [ref=e757] [cursor=pointer]: více
+              - cell "více" [ref=e758]:
+                - generic [ref=e759] [cursor=pointer]: více
+              - cell "více" [ref=e760]:
+                - generic [ref=e761] [cursor=pointer]: více
+              - cell "více" [ref=e762]:
+                - generic [ref=e763] [cursor=pointer]: více
+              - cell "více" [ref=e764]:
+                - generic [ref=e765] [cursor=pointer]: více
+              - cell "více" [ref=e766]:
+                - generic [ref=e767] [cursor=pointer]: více
+              - cell "více" [ref=e768]:
+                - generic [ref=e769] [cursor=pointer]: více
+              - cell "více" [ref=e770]:
+                - generic [ref=e771] [cursor=pointer]: více
+              - cell "více" [ref=e772]:
+                - generic [ref=e773] [cursor=pointer]: více
+              - cell "více" [ref=e774]:
+                - generic [ref=e775] [cursor=pointer]: více
+              - cell "více" [ref=e776]:
+                - generic [ref=e777] [cursor=pointer]: více
+              - cell "více" [ref=e778]:
+                - generic [ref=e779] [cursor=pointer]: více
+              - cell "více" [ref=e780]:
+                - generic [ref=e781] [cursor=pointer]: více
+              - cell "více" [ref=e782]:
+                - generic [ref=e783] [cursor=pointer]: více
+              - cell "více" [ref=e784]:
+                - generic [ref=e785] [cursor=pointer]: více
+              - cell "více" [ref=e786]:
+                - generic [ref=e787] [cursor=pointer]: více
+              - cell "více" [ref=e788]:
+                - generic [ref=e789] [cursor=pointer]: více
+              - cell "více" [ref=e790]:
+                - generic [ref=e791] [cursor=pointer]: více
+              - cell "více" [ref=e792]:
+                - generic [ref=e793] [cursor=pointer]: více
+              - cell "více" [ref=e794]:
+                - generic [ref=e795] [cursor=pointer]: více
+              - cell "více" [ref=e796]:
+                - generic [ref=e797] [cursor=pointer]: více
+              - cell "více" [ref=e798]:
+                - generic [ref=e799] [cursor=pointer]: více
+              - cell "více" [ref=e800]:
+                - generic [ref=e801] [cursor=pointer]: více
+              - cell "více" [ref=e802]:
+                - generic [ref=e803] [cursor=pointer]: více
+              - cell "více" [ref=e804]:
+                - generic [ref=e805] [cursor=pointer]: více
+              - cell "více" [ref=e806]:
+                - generic [ref=e807] [cursor=pointer]: více
+              - cell "více" [ref=e808]:
+                - generic [ref=e809] [cursor=pointer]: více
+              - cell "více" [ref=e810]:
+                - generic [ref=e811] [cursor=pointer]: více
+              - cell "Ne 07.06.2026" [ref=e812]
+            - row "Po 08.06.2026 8 více více více více více více více více více více více více více více více více více více více více více více Po 08.06.2026" [ref=e813]:
+              - cell "Po 08.06.2026" [ref=e814]
+              - cell "8" [ref=e815]
+              - cell "více" [ref=e816]:
+                - generic [ref=e817] [cursor=pointer]: více
+              - cell "více" [ref=e818]:
+                - generic [ref=e819] [cursor=pointer]: více
+              - cell "více" [ref=e820]:
+                - generic [ref=e821] [cursor=pointer]: více
+              - cell "více" [ref=e822]:
+                - generic [ref=e823] [cursor=pointer]: více
+              - cell "více" [ref=e824]:
+                - generic [ref=e825] [cursor=pointer]: více
+              - cell "více" [ref=e826]:
+                - generic [ref=e827] [cursor=pointer]: více
+              - cell "více" [ref=e828]:
+                - generic [ref=e829] [cursor=pointer]: více
+              - cell "více" [ref=e830]:
+                - generic [ref=e831] [cursor=pointer]: více
+              - cell "více" [ref=e832]:
+                - generic [ref=e833] [cursor=pointer]: více
+              - cell "více" [ref=e834]:
+                - generic [ref=e835] [cursor=pointer]: více
+              - cell "více" [ref=e836]:
+                - generic [ref=e837] [cursor=pointer]: více
+              - cell "více" [ref=e838]:
+                - generic [ref=e839] [cursor=pointer]: více
+              - cell "více" [ref=e840]:
+                - generic [ref=e841] [cursor=pointer]: více
+              - cell "více" [ref=e842]:
+                - generic [ref=e843] [cursor=pointer]: více
+              - cell "více" [ref=e844]:
+                - generic [ref=e845] [cursor=pointer]: více
+              - cell "více" [ref=e846]:
+                - generic [ref=e847] [cursor=pointer]: více
+              - cell "více" [ref=e848]:
+                - generic [ref=e849] [cursor=pointer]: více
+              - cell "více" [ref=e850]:
+                - generic [ref=e851] [cursor=pointer]: více
+              - cell [ref=e852]
+              - cell [ref=e854]
+              - cell [ref=e856]
+              - cell [ref=e858]
+              - cell [ref=e860]
+              - cell [ref=e862]
+              - cell [ref=e864]
+              - cell [ref=e866]
+              - cell [ref=e868]
+              - cell [ref=e870]
+              - cell "více" [ref=e872]:
+                - generic [ref=e873] [cursor=pointer]: více
+              - cell "více" [ref=e874]:
+                - generic [ref=e875] [cursor=pointer]: více
+              - cell "více" [ref=e876]:
+                - generic [ref=e877] [cursor=pointer]: více
+              - cell "více" [ref=e878]:
+                - generic [ref=e879] [cursor=pointer]: více
+              - cell "Po 08.06.2026" [ref=e880]
+            - row "Út 09.06.2026 8 více více více více více více více více více více více více více více více více více více více více více více více Út 09.06.2026" [ref=e881]:
+              - cell "Út 09.06.2026" [ref=e882]
+              - cell "8" [ref=e883]
+              - cell "více" [ref=e884]:
+                - generic [ref=e885] [cursor=pointer]: více
+              - cell "více" [ref=e886]:
+                - generic [ref=e887] [cursor=pointer]: více
+              - cell "více" [ref=e888]:
+                - generic [ref=e889] [cursor=pointer]: více
+              - cell "více" [ref=e890]:
+                - generic [ref=e891] [cursor=pointer]: více
+              - cell "více" [ref=e892]:
+                - generic [ref=e893] [cursor=pointer]: více
+              - cell "více" [ref=e894]:
+                - generic [ref=e895] [cursor=pointer]: více
+              - cell "více" [ref=e896]:
+                - generic [ref=e897] [cursor=pointer]: více
+              - cell "více" [ref=e898]:
+                - generic [ref=e899] [cursor=pointer]: více
+              - cell "více" [ref=e900]:
+                - generic [ref=e901] [cursor=pointer]: více
+              - cell "více" [ref=e902]:
+                - generic [ref=e903] [cursor=pointer]: více
+              - cell "více" [ref=e904]:
+                - generic [ref=e905] [cursor=pointer]: více
+              - cell "více" [ref=e906]:
+                - generic [ref=e907] [cursor=pointer]: více
+              - cell "více" [ref=e908]:
+                - generic [ref=e909] [cursor=pointer]: více
+              - cell "více" [ref=e910]:
+                - generic [ref=e911] [cursor=pointer]: více
+              - cell "více" [ref=e912]:
+                - generic [ref=e913] [cursor=pointer]: více
+              - cell "více" [ref=e914]:
+                - generic [ref=e915] [cursor=pointer]: více
+              - cell "více" [ref=e916]:
+                - generic [ref=e917] [cursor=pointer]: více
+              - cell "více" [ref=e918]:
+                - generic [ref=e919] [cursor=pointer]: více
+              - cell "více" [ref=e920]:
+                - generic [ref=e921] [cursor=pointer]: více
+              - cell [ref=e922]
+              - cell [ref=e924]
+              - cell [ref=e926]
+              - cell [ref=e928]
+              - cell [ref=e930]
+              - cell [ref=e932]
+              - cell [ref=e934]
+              - cell [ref=e936]
+              - cell [ref=e938]
+              - cell "více" [ref=e940]:
+                - generic [ref=e941] [cursor=pointer]: více
+              - cell "více" [ref=e942]:
+                - generic [ref=e943] [cursor=pointer]: více
+              - cell "více" [ref=e944]:
+                - generic [ref=e945] [cursor=pointer]: více
+              - cell "více" [ref=e946]:
+                - generic [ref=e947] [cursor=pointer]: více
+              - cell "Út 09.06.2026" [ref=e948]
+            - row "St 10.06.2026 8 více více více více více více více více více více více více více více více více více více více více více více St 10.06.2026" [ref=e949]:
+              - cell "St 10.06.2026" [ref=e950]
+              - cell "8" [ref=e951]
+              - cell "více" [ref=e952]:
+                - generic [ref=e953] [cursor=pointer]: více
+              - cell "více" [ref=e954]:
+                - generic [ref=e955] [cursor=pointer]: více
+              - cell "více" [ref=e956]:
+                - generic [ref=e957] [cursor=pointer]: více
+              - cell "více" [ref=e958]:
+                - generic [ref=e959] [cursor=pointer]: více
+              - cell "více" [ref=e960]:
+                - generic [ref=e961] [cursor=pointer]: více
+              - cell "více" [ref=e962]:
+                - generic [ref=e963] [cursor=pointer]: více
+              - cell "více" [ref=e964]:
+                - generic [ref=e965] [cursor=pointer]: více
+              - cell "více" [ref=e966]:
+                - generic [ref=e967] [cursor=pointer]: více
+              - cell "více" [ref=e968]:
+                - generic [ref=e969] [cursor=pointer]: více
+              - cell "více" [ref=e970]:
+                - generic [ref=e971] [cursor=pointer]: více
+              - cell "více" [ref=e972]:
+                - generic [ref=e973] [cursor=pointer]: více
+              - cell "více" [ref=e974]:
+                - generic [ref=e975] [cursor=pointer]: více
+              - cell "více" [ref=e976]:
+                - generic [ref=e977] [cursor=pointer]: více
+              - cell "více" [ref=e978]:
+                - generic [ref=e979] [cursor=pointer]: více
+              - cell "více" [ref=e980]:
+                - generic [ref=e981] [cursor=pointer]: více
+              - cell "více" [ref=e982]:
+                - generic [ref=e983] [cursor=pointer]: více
+              - cell "více" [ref=e984]:
+                - generic [ref=e985] [cursor=pointer]: více
+              - cell "více" [ref=e986]:
+                - generic [ref=e987] [cursor=pointer]: více
+              - cell [ref=e988]
+              - cell [ref=e990]
+              - cell [ref=e992]
+              - cell [ref=e994]
+              - cell [ref=e996]
+              - cell [ref=e998]
+              - cell [ref=e1000]
+              - cell [ref=e1002]
+              - cell [ref=e1004]
+              - cell [ref=e1006]
+              - cell "více" [ref=e1008]:
+                - generic [ref=e1009] [cursor=pointer]: více
+              - cell "více" [ref=e1010]:
+                - generic [ref=e1011] [cursor=pointer]: více
+              - cell "více" [ref=e1012]:
+                - generic [ref=e1013] [cursor=pointer]: více
+              - cell "více" [ref=e1014]:
+                - generic [ref=e1015] [cursor=pointer]: více
+              - cell "St 10.06.2026" [ref=e1016]
+            - row "Čt 11.06.2026 7 více více více více více více více více více více více více více více více více více více 1 více více více více více Čt 11.06.2026" [ref=e1017]:
+              - cell "Čt 11.06.2026" [ref=e1018]
+              - cell "7" [ref=e1019]
+              - cell "více" [ref=e1020]:
+                - generic [ref=e1021] [cursor=pointer]: více
+              - cell "více" [ref=e1022]:
+                - generic [ref=e1023] [cursor=pointer]: více
+              - cell "více" [ref=e1024]:
+                - generic [ref=e1025] [cursor=pointer]: více
+              - cell "více" [ref=e1026]:
+                - generic [ref=e1027] [cursor=pointer]: více
+              - cell "více" [ref=e1028]:
+                - generic [ref=e1029] [cursor=pointer]: více
+              - cell "více" [ref=e1030]:
+                - generic [ref=e1031] [cursor=pointer]: více
+              - cell "více" [ref=e1032]:
+                - generic [ref=e1033] [cursor=pointer]: více
+              - cell "více" [ref=e1034]:
+                - generic [ref=e1035] [cursor=pointer]: více
+              - cell "více" [ref=e1036]:
+                - generic [ref=e1037] [cursor=pointer]: více
+              - cell "více" [ref=e1038]:
+                - generic [ref=e1039] [cursor=pointer]: více
+              - cell "více" [ref=e1040]:
+                - generic [ref=e1041] [cursor=pointer]: více
+              - cell "více" [ref=e1042]:
+                - generic [ref=e1043] [cursor=pointer]: více
+              - cell "více" [ref=e1044]:
+                - generic [ref=e1045] [cursor=pointer]: více
+              - cell "více" [ref=e1046]:
+                - generic [ref=e1047] [cursor=pointer]: více
+              - cell "více" [ref=e1048]:
+                - generic [ref=e1049] [cursor=pointer]: více
+              - cell "více" [ref=e1050]:
+                - generic [ref=e1051] [cursor=pointer]: více
+              - cell "více" [ref=e1052]:
+                - generic [ref=e1053] [cursor=pointer]: více
+              - cell "více" [ref=e1054]:
+                - generic [ref=e1055] [cursor=pointer]: více
+              - cell [ref=e1056]
+              - cell [ref=e1058]
+              - cell [ref=e1060]
+              - cell [ref=e1062]
+              - cell [ref=e1064]
+              - cell [ref=e1066]
+              - cell [ref=e1068]
+              - cell [ref=e1070]
+              - cell "1" [ref=e1072]:
+                - generic [ref=e1073]: "1"
+              - cell "více" [ref=e1074]:
+                - generic [ref=e1075] [cursor=pointer]: více
+              - cell "více" [ref=e1076]:
+                - generic [ref=e1077] [cursor=pointer]: více
+              - cell "více" [ref=e1078]:
+                - generic [ref=e1079] [cursor=pointer]: více
+              - cell "více" [ref=e1080]:
+                - generic [ref=e1081] [cursor=pointer]: více
+              - cell "více" [ref=e1082]:
+                - generic [ref=e1083] [cursor=pointer]: více
+              - cell "Čt 11.06.2026" [ref=e1084]
+            - row "Pá 12.06.2026 1 více více více více více více více více více více více více více více více více více více více více více více více 2 2 více2 1 více více více více Pá 12.06.2026" [ref=e1085]:
+              - cell "Pá 12.06.2026" [ref=e1086]
+              - cell "1" [ref=e1087]
+              - cell "více" [ref=e1088]:
+                - generic [ref=e1089] [cursor=pointer]: více
+              - cell "více" [ref=e1090]:
+                - generic [ref=e1091] [cursor=pointer]: více
+              - cell "více" [ref=e1092]:
+                - generic [ref=e1093] [cursor=pointer]: více
+              - cell "více" [ref=e1094]:
+                - generic [ref=e1095] [cursor=pointer]: více
+              - cell "více" [ref=e1096]:
+                - generic [ref=e1097] [cursor=pointer]: více
+              - cell "více" [ref=e1098]:
+                - generic [ref=e1099] [cursor=pointer]: více
+              - cell "více" [ref=e1100]:
+                - generic [ref=e1101] [cursor=pointer]: více
+              - cell "více" [ref=e1102]:
+                - generic [ref=e1103] [cursor=pointer]: více
+              - cell "více" [ref=e1104]:
+                - generic [ref=e1105] [cursor=pointer]: více
+              - cell "více" [ref=e1106]:
+                - generic [ref=e1107] [cursor=pointer]: více
+              - cell "více" [ref=e1108]:
+                - generic [ref=e1109] [cursor=pointer]: více
+              - cell "více" [ref=e1110]:
+                - generic [ref=e1111] [cursor=pointer]: více
+              - cell "více" [ref=e1112]:
+                - generic [ref=e1113] [cursor=pointer]: více
+              - cell "více" [ref=e1114]:
+                - generic [ref=e1115] [cursor=pointer]: více
+              - cell "více" [ref=e1116]:
+                - generic [ref=e1117] [cursor=pointer]: více
+              - cell "více" [ref=e1118]:
+                - generic [ref=e1119] [cursor=pointer]: více
+              - cell "více" [ref=e1120]:
+                - generic [ref=e1121] [cursor=pointer]: více
+              - cell "více" [ref=e1122]:
+                - generic [ref=e1123] [cursor=pointer]: více
+              - cell "více" [ref=e1124]:
+                - generic [ref=e1125] [cursor=pointer]: více
+              - cell "více" [ref=e1126]:
+                - generic [ref=e1127] [cursor=pointer]: více
+              - cell "více" [ref=e1128]:
+                - generic [ref=e1129] [cursor=pointer]: více
+              - cell "více" [ref=e1130]:
+                - generic [ref=e1131] [cursor=pointer]: více
+              - cell "více" [ref=e1132]:
+                - generic [ref=e1133] [cursor=pointer]: více
+              - cell "2" [ref=e1134]:
+                - generic [ref=e1135]: "2"
+              - cell "2" [ref=e1136]:
+                - generic [ref=e1137]: "2"
+              - cell "více2" [ref=e1138]:
+                - generic [ref=e1139] [cursor=pointer]: více2
+              - cell "1" [ref=e1140]:
+                - generic [ref=e1141]: "1"
+              - cell [ref=e1142]
+              - cell "více" [ref=e1144]:
+                - generic [ref=e1145] [cursor=pointer]: více
+              - cell "více" [ref=e1146]:
+                - generic [ref=e1147] [cursor=pointer]: více
+              - cell "více" [ref=e1148]:
+                - generic [ref=e1149] [cursor=pointer]: více
+              - cell "více" [ref=e1150]:
+                - generic [ref=e1151] [cursor=pointer]: více
+              - cell "Pá 12.06.2026" [ref=e1152]
+            - row "07:00 07:30 08:00 08:30 09:00 09:30 10:00 10:30 11:00 11:30 12:00 12:30 13:00 13:30 14:00 14:30 15:00 15:30 16:00 16:30 17:00 17:30 18:00 18:30 19:00 19:30 20:00 20:30 21:00 21:30 22:00 22:30" [ref=e1153]:
+              - cell [ref=e1154]
+              - cell [ref=e1155]
+              - cell "07:00" [ref=e1156]
+              - cell "07:30" [ref=e1157]
+              - cell "08:00" [ref=e1158]
+              - cell "08:30" [ref=e1159]
+              - cell "09:00" [ref=e1160]
+              - cell "09:30" [ref=e1161]
+              - cell "10:00" [ref=e1162]
+              - cell "10:30" [ref=e1163]
+              - cell "11:00" [ref=e1164]
+              - cell "11:30" [ref=e1165]
+              - cell "12:00" [ref=e1166]
+              - cell "12:30" [ref=e1167]
+              - cell "13:00" [ref=e1168]
+              - cell "13:30" [ref=e1169]
+              - cell "14:00" [ref=e1170]
+              - cell "14:30" [ref=e1171]
+              - cell "15:00" [ref=e1172]
+              - cell "15:30" [ref=e1173]
+              - cell "16:00" [ref=e1174]
+              - cell "16:30" [ref=e1175]
+              - cell "17:00" [ref=e1176]
+              - cell "17:30" [ref=e1177]
+              - cell "18:00" [ref=e1178]
+              - cell "18:30" [ref=e1179]
+              - cell "19:00" [ref=e1180]
+              - cell "19:30" [ref=e1181]
+              - cell "20:00" [ref=e1182]
+              - cell "20:30" [ref=e1183]
+              - cell "21:00" [ref=e1184]
+              - cell "21:30" [ref=e1185]
+              - cell "22:00" [ref=e1186]
+              - cell "22:30" [ref=e1187]
+              - cell [ref=e1188]
+      - table [ref=e1191]:
+        - rowgroup [ref=e1192]:
+          - 'row "Legenda: volno, možno rezervovat (volný 1 nebo více kurtů)" [ref=e1193]':
+            - cell "Legenda:" [ref=e1194]
+            - cell [ref=e1195]
+            - cell "volno, možno rezervovat (volný 1 nebo více kurtů)" [ref=e1196]
+          - row [ref=e1197]:
+            - cell [ref=e1198]
+          - row "hrajete, možnost další rezervace (je volný jeden nebo více kurtů)" [ref=e1199]:
+            - cell [ref=e1200]
+            - cell [ref=e1201]
+            - cell "hrajete, možnost další rezervace (je volný jeden nebo více kurtů)" [ref=e1202]
+          - row [ref=e1203]:
+            - cell [ref=e1204]
+          - row "hrajete, nelze rezervovat (již není volný žádný kurt)" [ref=e1205]:
+            - cell [ref=e1206]
+            - cell [ref=e1207]
+            - cell "hrajete, nelze rezervovat (již není volný žádný kurt)" [ref=e1208]
+          - row [ref=e1209]:
+            - cell [ref=e1210]
+          - row "nelze rezervovat" [ref=e1211]:
+            - cell [ref=e1212]
+            - cell [ref=e1213]
+            - cell "nelze rezervovat" [ref=e1214]
+    - generic [ref=e1215]:
+      - generic [ref=e1216]:
+        - heading "Permanentky" [level=1] [ref=e1217]
+        - paragraph [ref=e1218]:
+          - text: vložení do náhrad →
+          - strong [ref=e1219]: nejpozději den přededm od 19:00
+          - text: Permanentkové rezervace lze vložit do náhrad do 19 hodin předchozího dne, po tomto termínu bude rezervace vložená do POZDNÍCH náhrad.
+      - generic [ref=e1220]:
+        - heading "Storno podmínky – sportoviště" [level=1] [ref=e1221]
+        - generic [ref=e1222]:
+          - generic [ref=e1223]:
+            - heading "Více než 24 h předem" [level=5] [ref=e1224]
+            - text: → bez poplatku
+          - generic [ref=e1225]:
+            - heading "24 – 12 h" [level=5] [ref=e1226]
+            - text: → 20 %
+          - generic [ref=e1227]:
+            - heading "11:59 – 3 h" [level=5] [ref=e1228]
+            - text: → 50 %
+          - generic [ref=e1229]:
+            - heading "Méně než 3 h" [level=5] [ref=e1230]
+            - text: → 100 %
+      - generic [ref=e1231]:
+        - heading "Storno podmínky – sportoviště s trenérem" [level=1] [ref=e1232]
+        - list [ref=e1233]:
+          - listitem [ref=e1234]:
+            - text: Do 19:00 den předem → trenér
+            - strong [ref=e1235]: bez poplatku
+          - listitem [ref=e1236]:
+            - text: Po 19:00 / v den rezervace →
+            - strong [ref=e1237]: 100 % trenér
+        - paragraph [ref=e1238]:
+          - text: Sportoviště se vždy řídí standardními storno podmínkami.
+          - text: Zrušení trenéra pouze telefonicky nebo osobně (nelze online).
+        - heading "Upozornění:" [level=3] [ref=e1239]
+        - list [ref=e1240]:
+          - listitem [ref=e1241]: Nezrušené rezervace a storno poplatky jsou evidovány a budou vymáhány.
+          - listitem [ref=e1242]:
+            - text: HAMR si vyhrazuje právo
+            - strong [ref=e1243]: zrušit nezaplacenou rezervaci 5 minut před začátkem.
+  - generic: "&nbps;"
